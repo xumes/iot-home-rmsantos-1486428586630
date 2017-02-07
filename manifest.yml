@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-home-rmsantos
+  host: iot-home-rmsantos
+  disk_quota: 1024M
+  services:
+  - iot-home-rmsantos-ibm-iot-for-electronics
+  - iot-home-rmsantos-iotf-service
+  - iot-home-rmsantos-AdvancedMobileAccess
